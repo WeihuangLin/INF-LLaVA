@@ -2,8 +2,8 @@ deepspeed llava/train/train_mem.py \
     --deepspeed ./scripts/zero3.json \
     --model_name_or_path meta-llama/Meta-Llama-3-8B-Instruct \
     --version llama3 \
-    --data_path /home/ma-user/work/datasets/yiwei_data/llava_v1_5_sft/llava_v1_5_mix665k.json \
-    --image_folder /home/ma-user/work/datasets/yiwei_data/llava_v1_5_sft \
+    --data_path ~/datasets/llava_v1_5_sft/llava_v1_5_mix665k.json \
+    --image_folder ~/datasets/llava_v1_5_sft \
     --vision_tower openai/clip-vit-large-patch14-336 \
     --pretrain_mm_mlp_adapter ./checkpoints/llava-v1.5-8b-pretrain/mm_projector.bin \
     --mm_projector_type mlp2x_gelu \
