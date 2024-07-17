@@ -1,4 +1,4 @@
-deepspeed llava/train/train_mem.py \
+deepspeed INF_llava/train/train_mem.py \
     --deepspeed ./scripts/zero2.json \
     --model_name_or_path meta-llama/Meta-Llama-3-8B-Instruct \
     --version plain \

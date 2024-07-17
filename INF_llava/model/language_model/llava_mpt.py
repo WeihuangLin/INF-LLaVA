@@ -19,7 +19,7 @@ import torch
 
 from transformers import AutoConfig, AutoModelForCausalLM, \
                          MptConfig, MptForCausalLM, MptModel
-from llava.model.llava_arch import LlavaMetaModel, LlavaMetaForCausalLM
+from ..model.llava_arch import LlavaMetaModel, LlavaMetaForCausalLM
 
 
 class LlavaMptConfig(MptConfig):
