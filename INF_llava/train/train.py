@@ -29,14 +29,14 @@ import torch
 import transformers
 import tokenizers
 
-from ..constants import IGNORE_INDEX, IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_TOKEN, DEFAULT_IM_START_TOKEN, \
+from INF_llava.constants import IGNORE_INDEX, IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_TOKEN, DEFAULT_IM_START_TOKEN, \
     DEFAULT_IM_END_TOKEN
 from torch.utils.data import Dataset
-from ..train.llava_trainer import LLaVATrainer
+from INF_llava.train.llava_trainer import LLaVATrainer
 
-from .. import conversation as conversation_lib
-from ..model import *
-from ..mm_utils import tokenizer_image_token
+from INF_llava import conversation as conversation_lib
+from INF_llava.model import *
+from INF_llava.mm_utils import tokenizer_image_token
 
 from PIL import Image
 from torch import nn

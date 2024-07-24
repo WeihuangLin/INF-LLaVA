@@ -16,14 +16,14 @@ features that significantly improve performance.
 - **Strong Performance** : **INF-LLaVA** outperforms existing models on multiple benchmarks, demonstrating the effectiveness of our approach. Check out our [model zoo](#model-zoo).
 
 
-# Table of Contents
+## Table of Contents
 
 - [Install](#install)
 - [Train](#train)
 - [Evaluate](#evaluate)
 - [Model Zoo](#model-zoo)
 
-# Install
+## Install
 1. Clone this repository and navigate to INF-LLaVA folder
 ```bash
 git clone https://github.com/WeihuangLin/INF-LLaVA.git
@@ -42,7 +42,7 @@ pip install -e ".[train]"
 pip install flash-attn --no-build-isolation --no-cache-dir
 ```
 
-# Train
+## Train
 
 1. Pre-train
 ```bash
@@ -60,23 +60,22 @@ bash INF-LLava_finetune.sh
 
 You can download our pretrained weights in [Model Zoo](#model-zoo) 
 
-# Evaluate
+## Evaluate
 
 We follow [lmm-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval/) to conduct evaluations. Please refer to [lmm-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval/) for help. We provide the same script to complete the testing.
 
 
-# Model Zoo
+## Model Zoo
 
 | Version |  Checkpoint |
 |----------|----------|
 | $INF-LLaVA$ | 🤗[WeihuangLin/INF-LLaVA-sft](https://huggingface.co/WeihuangLin/INF-LLaVA-sft/)
-| $INF-LLaVA^*$ |  🤗[WeihuangLin/INF-LLaVA_star-sft](https://huggingface.co/WeihuangLin/INF_star-LLaVA-sft/)
+| $INF^*-LLaVA$ |  🤗[WeihuangLin/INF_star-LLaVA-sft](https://huggingface.co/WeihuangLin/INF_star-LLaVA-sft/)
 
-$INF-LLaVA^*$ means using a more diverse dataset for training.
+$INF^*-LLaVA$ means using a more diverse dataset for training.
 
 --- 
-# 🙏 Acknowledgement
+## 🙏 Acknowledgement
 We are thankful to [LLaVA](https://github.com/haotian-liu/LLaVA), [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) and [LLama3](https://github.com/meta-llama/llama3) for releasing their models and code as open-source contributions.
 
 In case if you face any issues or have any questions, please feel free to create an issue.
-
