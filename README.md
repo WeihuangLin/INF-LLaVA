@@ -15,6 +15,16 @@ This repository contains the Pytorch code and model weight of **INF-LLaVA**, a n
 features that significantly improve performance.
 - **Strong Performance** : **INF-LLaVA** outperforms existing models on multiple benchmarks, demonstrating the effectiveness of our approach. Check out our [model zoo](#model-zoo).
 
+## News !!
+- 🔥[2024-7-19] Release the ckpt model of **INF-LLaVA** on [Hugging Face](https://huggingface.co/collections/WeihuangLin/inf-llava-669be442004e418e71fea201).
+- 🔥[2024-7-16] Release the code of **INF-LLaVA**.
+
+## To-Do Lists 
+
+- [ ] Release **INF-LLaVA** model based on [Llama 3.1](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct) 
+- [x] Release **INF-LLaVA** Strong Models. 
+- [x] Release **INF-LLaVA** training code. 
+
 
 ## Table of Contents
 
