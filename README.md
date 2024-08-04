@@ -3,8 +3,13 @@
 <p>
 
 <p align="center">
-        🤗 <a href="https://huggingface.co/WeihuangLin"> Models on Hugging Face</a>
-<br>
+  <a href='https://www.arxiv.org/abs/2407.16198'>
+    <img src='https://img.shields.io/badge/Paper-PDF-green?style=flat&logo=arXiv&logoColor=green' alt='arXiv PDF'> </a>
+  
+  <a href='https://huggingface.co/collections/WeihuangLin/inf-llava-669be442004e418e71fea201' style='padding-left: 0.5rem;'>
+    <img src='https://img.shields.io/badge/Huggingface%20Model-8A2BE2' alt='Project Page'> </a>
+</p>
+
 
 # 🌋 INF-LLaVA: Dual-perspective Perception for High-Resolution Multimodal Large Language Model
 This repository contains the Pytorch code and model weight of **INF-LLaVA**, a novel MLLM designed for high-resolution image perception and reasoning.
@@ -84,7 +89,26 @@ We follow [lmm-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval/) to conduct 
 
 $INF^*-LLaVA$ means using a more diverse dataset for training.
 
---- 
+## 🎫 License
+
+This project is released under the [Apache 2.0 license](LICENSE). 
+
+## 🖊️ Citation
+
+If you find this project useful in your research, please consider cite:
+
+```BibTeX
+
+
+@misc{ma2024infllava,
+      title={INF-LLaVA: Dual-perspective Perception for High-Resolution Multimodal Large Language Model}, 
+      author={Yiwei Ma and Zhibin Wang and Xiaoshuai Sun and Weihuang Lin and Qiang Zhou and Jiayi Ji and Rongrong Ji},
+      journal={arXiv preprint arXiv:2407.16198},
+      year={2024}
+}
+
+```
+
 ## 🙏 Acknowledgement
 We are thankful to [LLaVA](https://github.com/haotian-liu/LLaVA), [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) and [LLama3](https://github.com/meta-llama/llama3) for releasing their models and code as open-source contributions.
 
